@@ -40,17 +40,17 @@ class ObjString: NSObject {
          一个汉字 两个字节 两个汉字四个字节 按照字节数返回字符串个数
          显然不是 还是按照字符个数 一个unicode 字符串算一个字符
          */
-        var mutableStr2:String = "开始"
+        let mutableStr2:String = "开始"
         
-        print(mutableStr2.characters.count)
+        print(mutableStr2.count)
         
-        var mutableStr3:String = "\u{12}"
+       let mutableStr3:String = "\u{12}"
         
-        print(mutableStr3.characters.count)
+        print(mutableStr3.count)
         
-        var mutableStr4:String = "\u{1234}"
+        let mutableStr4:String = "\u{1234}"
         
-        print(mutableStr4.characters.count)
+        print(mutableStr4.count)
         
         let  docFolder = ["java.docx","javabean.docx","objective-c.xlsx","swift.docx"]
 

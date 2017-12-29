@@ -43,7 +43,7 @@ class ObjGuard: NSObject {
             
             i = i + 1
             
-            print(i)
+            
         } while i * i < 100_000
         
         print("guard 条件表达式为 false 即 这里为空值时 执行false语句内容 跳转语句 可以是 return 如果是循环体中使用guard 就使用 break continue ")

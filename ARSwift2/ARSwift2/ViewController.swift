@@ -71,12 +71,13 @@ class ViewController: UIViewController {
         print(smile)
         print(smile2)
         
-        print("字符串个数:\(smile2.characters.count)")
+        print("字符串个数:\(smile2.count)")
         
-        let emptyString1 = ""
+        _ = ""
+        
         let emptyString2 = String()
         
-        print("字符串个数:\(emptyString2.characters.count)")
+        print("字符串个数:\(emptyString2.count)")
         
         
         let obj2:ObjString = ObjString()
@@ -204,6 +205,121 @@ class ViewController: UIViewController {
         print(emp.fullName)
         
         emp.name = "chineseMan"
+        
+        let p1:Person = Person.init()
+        
+        print(p1.decription())
+        
+        
+        
+        let student1:Student = Student.init(name: "学生甲", age: 28)
+        
+         print(student1.decription())
+        
+        
+        
+        let gra:Graduate = Graduate.init()
+        
+         print(gra.decription())
+        
+        
+        gra.name = "name-Graduate"
+        
+        print(gra.decription())
+        
+        let  wok:Worker = Worker.init(name: "test1", age: 100, factory: "白宫")
+        
+        wok.test()
+        
+        let objCate:ObjCategory = ObjCategory()
+        
+        
+        
+        
+        objCate.test()
+        
+        var ary2 = SquareMatrix.init(rows: 5, columns: 5)
+        
+        for i in 0..<5 {
+            
+            for j in 0..<5 {
+                
+                ary2[i,j] = i + j
+                
+            }
+            
+        }
+        
+        
+        for i in 0..<5 {
+            
+            for j in 0..<5 {
+                
+                print("\t\t \(ary2[i,j])")
+                
+            }
+            
+            print("\n")
+            
+        }
+        
+        let empD = Employee.init()
+        
+        let strCon:String = empD.fullNameBlock3("首都","北京")
+        
+        print("\(strCon)")
+        
+        
+        let  daoNote:NoteDAO = NoteDAO()
+        
+        do {
+            
+            print("try? findAll() 如果函数或方法抛出错误 程序不会崩溃 而是返回一个nil ;如果没有跑出错误 则返回可选值")
+           
+            //TODO: 练习do-catch
+            let res = try?  daoNote.findAll()
+            
+            if res == nil {
+                
+                
+                
+            }
+            
+        } catch DAOError.NoData {
+            //FIXME: 这里的异常为什么无法Catch
+            print("没有数据")
+            
+        } catch DAOError.PrimaryKeyNull {
+            
+            print("没有数据")
+            
+        }
+        
+       let error = try? daoNote.findAll()
+        
+        if error == nil {
+            print("nil 空")
+        }
+        
+        
+        let coco:SwiftCoco = SwiftCoco()
+        
+        coco.testNumber()
+        
+        coco.testString()
+        
+        coco.testArray()
+        
+        coco.testDict()
+        
+        coco.testSet()
+        
+        //MARK:代码结束
+        
+        
+        
+        
+        
         /*
          用let 还是 var
          

@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC63DFA21FF5CE4600637A43 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC63DFA11FF5CE4600637A43 /* Person.swift */; };
+		EC63DFA41FF5D02B00637A43 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC63DFA31FF5D02B00637A43 /* Student.swift */; };
+		EC63DFA61FF5D2B800637A43 /* Bullet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC63DFA51FF5D2B800637A43 /* Bullet.swift */; };
+		EC63DFA81FF5D72800637A43 /* Graduate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC63DFA71FF5D72800637A43 /* Graduate.swift */; };
+		EC63DFAA1FF5DE7C00637A43 /* Worker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC63DFA91FF5DE7C00637A43 /* Worker.swift */; };
+		EC63DFAC1FF5E34D00637A43 /* ObjCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC63DFAB1FF5E34D00637A43 /* ObjCategory.swift */; };
+		EC63DFAE1FF5EBAC00637A43 /* ObjT.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC63DFAD1FF5EBAC00637A43 /* ObjT.swift */; };
+		EC63DFB01FF5ED6E00637A43 /* DoubleDimensionalArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC63DFAF1FF5ED6E00637A43 /* DoubleDimensionalArray.swift */; };
+		EC63DFB21FF5EEB200637A43 /* SquareMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC63DFB11FF5EEB200637A43 /* SquareMatrix.swift */; };
+		EC63DFB41FF60D5C00637A43 /* SwiftErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC63DFB31FF60D5C00637A43 /* SwiftErrorType.swift */; };
+		EC63DFB61FF611D200637A43 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC63DFB51FF611D200637A43 /* Note.swift */; };
+		EC63DFB81FF6123500637A43 /* NoteDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC63DFB71FF6123500637A43 /* NoteDAO.swift */; };
+		EC63DFBA1FF61E0C00637A43 /* SwiftCoco.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC63DFB91FF61E0C00637A43 /* SwiftCoco.swift */; };
 		EC98505D1FF495DF0003B01F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC98505C1FF495DF0003B01F /* AppDelegate.swift */; };
 		EC98505F1FF495DF0003B01F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC98505E1FF495DF0003B01F /* ViewController.swift */; };
 		EC9850621FF495DF0003B01F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC9850601FF495DF0003B01F /* Main.storyboard */; };
@@ -45,6 +58,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC63DFA11FF5CE4600637A43 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		EC63DFA31FF5D02B00637A43 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		EC63DFA51FF5D2B800637A43 /* Bullet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bullet.swift; sourceTree = "<group>"; };
+		EC63DFA71FF5D72800637A43 /* Graduate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graduate.swift; sourceTree = "<group>"; };
+		EC63DFA91FF5DE7C00637A43 /* Worker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Worker.swift; sourceTree = "<group>"; };
+		EC63DFAB1FF5E34D00637A43 /* ObjCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjCategory.swift; sourceTree = "<group>"; };
+		EC63DFAD1FF5EBAC00637A43 /* ObjT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjT.swift; sourceTree = "<group>"; };
+		EC63DFAF1FF5ED6E00637A43 /* DoubleDimensionalArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleDimensionalArray.swift; sourceTree = "<group>"; };
+		EC63DFB11FF5EEB200637A43 /* SquareMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareMatrix.swift; sourceTree = "<group>"; };
+		EC63DFB31FF60D5C00637A43 /* SwiftErrorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftErrorType.swift; sourceTree = "<group>"; };
+		EC63DFB51FF611D200637A43 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		EC63DFB71FF6123500637A43 /* NoteDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDAO.swift; sourceTree = "<group>"; };
+		EC63DFB91FF61E0C00637A43 /* SwiftCoco.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCoco.swift; sourceTree = "<group>"; };
 		EC9850591FF495DF0003B01F /* ARSwift2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARSwift2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC98505C1FF495DF0003B01F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC98505E1FF495DF0003B01F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -121,6 +147,13 @@
 			children = (
 				EC98505C1FF495DF0003B01F /* AppDelegate.swift */,
 				EC98505E1FF495DF0003B01F /* ViewController.swift */,
+				EC63DFB31FF60D5C00637A43 /* SwiftErrorType.swift */,
+				EC63DFB51FF611D200637A43 /* Note.swift */,
+				EC63DFB71FF6123500637A43 /* NoteDAO.swift */,
+				EC63DFAB1FF5E34D00637A43 /* ObjCategory.swift */,
+				EC63DFAD1FF5EBAC00637A43 /* ObjT.swift */,
+				EC63DFAF1FF5ED6E00637A43 /* DoubleDimensionalArray.swift */,
+				EC63DFB11FF5EEB200637A43 /* SquareMatrix.swift */,
 				EC98509B1FF4DE2D0003B01F /* Employee.swift */,
 				EC98509D1FF4E65D0003B01F /* DepartmentObj.swift */,
 				EC98509F1FF4E66D0003B01F /* Company.swift */,
@@ -131,6 +164,12 @@
 				EC9850911FF4B70A0003B01F /* ObjGuard.swift */,
 				EC98508D1FF4966D0003B01F /* ObjSwift.swift */,
 				EC98508F1FF4ADBB0003B01F /* ObjString.swift */,
+				EC63DFA11FF5CE4600637A43 /* Person.swift */,
+				EC63DFA51FF5D2B800637A43 /* Bullet.swift */,
+				EC63DFA31FF5D02B00637A43 /* Student.swift */,
+				EC63DFA71FF5D72800637A43 /* Graduate.swift */,
+				EC63DFA91FF5DE7C00637A43 /* Worker.swift */,
+				EC63DFB91FF61E0C00637A43 /* SwiftCoco.swift */,
 				EC9850601FF495DF0003B01F /* Main.storyboard */,
 				EC9850661FF495DF0003B01F /* Assets.xcassets */,
 				EC9850681FF495DF0003B01F /* LaunchScreen.storyboard */,
@@ -293,18 +332,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC9850981FF4CF580003B01F /* ObjFunction.swift in Sources */,
+				EC63DFAA1FF5DE7C00637A43 /* Worker.swift in Sources */,
 				EC98509E1FF4E65D0003B01F /* DepartmentObj.swift in Sources */,
 				EC98505F1FF495DF0003B01F /* ViewController.swift in Sources */,
+				EC63DFB81FF6123500637A43 /* NoteDAO.swift in Sources */,
 				EC9850941FF4BC240003B01F /* ObjSet.swift in Sources */,
+				EC63DFA21FF5CE4600637A43 /* Person.swift in Sources */,
+				EC63DFAC1FF5E34D00637A43 /* ObjCategory.swift in Sources */,
+				EC63DFB21FF5EEB200637A43 /* SquareMatrix.swift in Sources */,
 				EC98509C1FF4DE2D0003B01F /* Employee.swift in Sources */,
+				EC63DFAE1FF5EBAC00637A43 /* ObjT.swift in Sources */,
 				EC98508E1FF4966D0003B01F /* ObjSwift.swift in Sources */,
+				EC63DFB61FF611D200637A43 /* Note.swift in Sources */,
+				EC63DFBA1FF61E0C00637A43 /* SwiftCoco.swift in Sources */,
 				EC98505D1FF495DF0003B01F /* AppDelegate.swift in Sources */,
 				EC98509A1FF4D9CE0003B01F /* ObjEnumStruct.swift in Sources */,
 				EC9850921FF4B70A0003B01F /* ObjGuard.swift in Sources */,
 				EC9850651FF495DF0003B01F /* ARSwift2.xcdatamodeld in Sources */,
 				EC9850901FF4ADBB0003B01F /* ObjString.swift in Sources */,
 				EC9850A01FF4E66D0003B01F /* Company.swift in Sources */,
+				EC63DFA41FF5D02B00637A43 /* Student.swift in Sources */,
+				EC63DFA81FF5D72800637A43 /* Graduate.swift in Sources */,
+				EC63DFB01FF5ED6E00637A43 /* DoubleDimensionalArray.swift in Sources */,
 				EC9850961FF4BFBC0003B01F /* ObjSwitch.swift in Sources */,
+				EC63DFB41FF60D5C00637A43 /* SwiftErrorType.swift in Sources */,
+				EC63DFA61FF5D2B800637A43 /* Bullet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

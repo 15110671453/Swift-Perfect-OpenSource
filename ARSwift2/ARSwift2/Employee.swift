@@ -109,6 +109,46 @@ class Employee: NSObject {
     
     lazy var dept :Department? = Department()//所在部门
     
+    //闭包 避免强循环引用
+    lazy var fullNameBlock:()->String = {
+        [weak self] ()->String in
+        
+        print("Block1 输出1")
+        
+        let fn = self!.firstName
+        let ln = self!.lastName
+        
+        return fn + "." + ln
+        
+    }
+    
+    lazy var fullNameBlock2:()->String = {
+        
+        [unowned self] in
+        
+        print("Block2 输出2")
+        
+        let fn = self.firstName
+        let ln = self.lastName
+        
+        return fn + "." + ln
+        
+        
+    }
+    
+    //MARK: 这里处理闭包
+    
+    lazy  var  fullNameBlock3:(_ firstN:String,_ lastN:String)->String = {
+        
+        //FIXME:注意这里 避免循环引用 内存释放
+        
+        [weak self] (_ firstN:String,_ lastN:String) in
+        
+        print("Block3 输出3")
+        return firstN + "." + lastN
+        
+        
+    }
     var deptObj:DepartmentObj?
     
     var fullName:String {
