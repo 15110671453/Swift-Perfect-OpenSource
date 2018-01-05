@@ -90,7 +90,9 @@ class SwiftCoco: NSObject {
     
     
     func  testString() {
+        
         let  str1:NSString = "aBcDeFgHiJk"
+        
         let  str2:NSString = "12345"
         
         let str3:String = "678910"
@@ -142,12 +144,12 @@ class SwiftCoco: NSObject {
         
         res = str1.lowercased
         
-         NSLog("小写字符串%@", res)
+        NSLog("小写字符串%@", res)
         
         
         res = str1.substring(to: 3)
         
-         NSLog("字符串前3个[0-1-2]字符%@", res)
+        NSLog("字符串前3个[0-1-2]字符%@", res)
         
         res = str1.substring(from: 4)
         
@@ -180,6 +182,8 @@ class SwiftCoco: NSObject {
         let replace = "An Example of"
         
         subRange = mstr.range(of: search)
+        
+        
         
         if subRange.location != NSNotFound {
             

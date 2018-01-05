@@ -29,9 +29,11 @@ class ObjGuard: NSObject {
             
             print("failure")
         }
+        
     }
     
     func guardStyleBlog(blog:Blog)  {
+        
         guard let blname = blog.name else {
             print("可选型变量 为空")
             return

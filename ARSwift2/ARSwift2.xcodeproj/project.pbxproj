@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC50A0EE1FFE026D00B1940A /* ObjSwDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC50A0ED1FFE026D00B1940A /* ObjSwDetails.swift */; };
+		EC50A0F01FFE0C2800B1940A /* ObjRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC50A0EF1FFE0C2800B1940A /* ObjRange.swift */; };
 		EC63DFA21FF5CE4600637A43 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC63DFA11FF5CE4600637A43 /* Person.swift */; };
 		EC63DFA41FF5D02B00637A43 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC63DFA31FF5D02B00637A43 /* Student.swift */; };
 		EC63DFA61FF5D2B800637A43 /* Bullet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC63DFA51FF5D2B800637A43 /* Bullet.swift */; };
@@ -58,6 +60,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC50A0ED1FFE026D00B1940A /* ObjSwDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjSwDetails.swift; sourceTree = "<group>"; };
+		EC50A0EF1FFE0C2800B1940A /* ObjRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjRange.swift; sourceTree = "<group>"; };
 		EC63DFA11FF5CE4600637A43 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		EC63DFA31FF5D02B00637A43 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		EC63DFA51FF5D2B800637A43 /* Bullet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bullet.swift; sourceTree = "<group>"; };
@@ -164,6 +168,7 @@
 				EC9850911FF4B70A0003B01F /* ObjGuard.swift */,
 				EC98508D1FF4966D0003B01F /* ObjSwift.swift */,
 				EC98508F1FF4ADBB0003B01F /* ObjString.swift */,
+				EC50A0ED1FFE026D00B1940A /* ObjSwDetails.swift */,
 				EC63DFA11FF5CE4600637A43 /* Person.swift */,
 				EC63DFA51FF5D2B800637A43 /* Bullet.swift */,
 				EC63DFA31FF5D02B00637A43 /* Student.swift */,
@@ -175,6 +180,7 @@
 				EC9850681FF495DF0003B01F /* LaunchScreen.storyboard */,
 				EC98506B1FF495DF0003B01F /* Info.plist */,
 				EC9850631FF495DF0003B01F /* ARSwift2.xcdatamodeld */,
+				EC50A0EF1FFE0C2800B1940A /* ObjRange.swift */,
 			);
 			path = ARSwift2;
 			sourceTree = "<group>";
@@ -352,6 +358,8 @@
 				EC9850901FF4ADBB0003B01F /* ObjString.swift in Sources */,
 				EC9850A01FF4E66D0003B01F /* Company.swift in Sources */,
 				EC63DFA41FF5D02B00637A43 /* Student.swift in Sources */,
+				EC50A0F01FFE0C2800B1940A /* ObjRange.swift in Sources */,
+				EC50A0EE1FFE026D00B1940A /* ObjSwDetails.swift in Sources */,
 				EC63DFA81FF5D72800637A43 /* Graduate.swift in Sources */,
 				EC63DFB01FF5ED6E00637A43 /* DoubleDimensionalArray.swift in Sources */,
 				EC9850961FF4BFBC0003B01F /* ObjSwitch.swift in Sources */,
