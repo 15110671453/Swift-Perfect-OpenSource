@@ -5,16 +5,72 @@
 //  Created by admindyn on 2017/12/28.
 //  Copyright © 2017年 admindyn. All rights reserved.
 //
-
+import Alamofire
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    func swiftHttp() {
+        print("ViewController 测试 Alamofire Http")
+        Alamofire.request("https://httpbin.org/get").responseJSON { response in
+            print("Request-Out: \(String(describing: response.request))")   // original url request
+            print("Response-Out: \(String(describing: response.response))") // http url response
+            print("Result-Out: \(response.result)")                         // response serialization result
+            
+            if let json = response.result.value {
+                print("JSON-Out: \(json)") // serialized json response
+            }
+            
+            if let data = response.data, let utf8Text = String(data: data, encoding: .utf8) {
+                print("Data-Out: \(utf8Text)") // original server data as UTF8 string
+            }
+        }
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        swiftHttp();
+        let que:QueueManager = QueueManager()
         
-        let obj:ObjSwift   = ObjSwift(name:"dyn",age:27);
+        que.qosConcurrentQueues()
+        que.delayQueue()
+        
+        let imageProcess = ImageRequestor()
+        
+    imageProcess.fetchImage(urlString: "http://ovu4rxd0y.bkt.clouddn.com/66.jpg", completion: { (image) in
+        
+        let iv:UIImageView = UIImageView(image:image)
+        iv.frame = CGRect(x:10, y:30, width:100, height:100)
+            
+        self.view.addSubview(iv)
+        print("block normal回调 图片异步下载")
+        })
+        imageProcess.fetchImageResumeData(urlString: "http://ovu4rxd0y.bkt.clouddn.com/66.jpg") { (image) in
+            
+            let iv:UIImageView = UIImageView(image:image)
+            iv.frame = CGRect(x:10, y:150, width:100, height:100)
+            
+            self.view.addSubview(iv)
+            print("block resumedata回调 图片异步下载")
+            
+            
+        }
+    
+        imageProcess.fetchImageProgress(urlString: "http://ovu4rxd0y.bkt.clouddn.com/66.jpg") { (image) in
+            
+            let iv:UIImageView = UIImageView(image:image)
+            iv.frame = CGRect(x:10, y:270, width:100, height:100)
+            
+            self.view.addSubview(iv)
+            print("block progress回调 图片异步下载")
+            
+            
+        }
+        
+          //rainbow.jpg unicorn.png
+        imageProcess.uploadMultipleFile(unicornImageName: "unicorn", rainbowImageName: "rainbow")
+        
+        let obj:ObjSwift = ObjSwift(name:"dyn",age:27);
         
        let re =  obj.logMes(message: "上网")
         
