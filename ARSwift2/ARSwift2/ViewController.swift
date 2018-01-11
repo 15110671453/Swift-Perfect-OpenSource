@@ -26,6 +26,31 @@ class ViewController: UIViewController {
             }
         }
     }
+    
+    
+    @objc func btnPushClick(btn:UIButton)  {
+        
+        let aniControl = AnimationControl()
+        
+        let navControl:NavControlQuartz = NavControlQuartz(rootViewController:aniControl)
+        
+        
+        self.present(navControl, animated: false) {
+            
+        }
+        
+    }
+    
+    @objc func btnClick(btn:UIButton)  {
+       
+       
+        let imageComtrol:ImageDrawControl = ImageDrawControl()
+        self.present(imageComtrol, animated: false) {
+            
+        }
+        
+    
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -37,31 +62,31 @@ class ViewController: UIViewController {
         
         let imageProcess = ImageRequestor()
         
-    imageProcess.fetchImage(urlString: "http://ovu4rxd0y.bkt.clouddn.com/66.jpg", completion: { (image) in
+    imageProcess.fetchImage(urlString: "http://ovu4rxd0y.bkt.clouddn.com/66.jpg", completion: { [weak self] (image) in
         
         let iv:UIImageView = UIImageView(image:image)
         iv.frame = CGRect(x:10, y:30, width:100, height:100)
             
-        self.view.addSubview(iv)
+        self?.view.addSubview(iv)
         print("block normal回调 图片异步下载")
         })
-        imageProcess.fetchImageResumeData(urlString: "http://ovu4rxd0y.bkt.clouddn.com/66.jpg") { (image) in
+        imageProcess.fetchImageResumeData(urlString: "http://ovu4rxd0y.bkt.clouddn.com/66.jpg") { [weak self] (image) in
             
             let iv:UIImageView = UIImageView(image:image)
             iv.frame = CGRect(x:10, y:150, width:100, height:100)
             
-            self.view.addSubview(iv)
+            self?.view.addSubview(iv)
             print("block resumedata回调 图片异步下载")
             
             
         }
     
-        imageProcess.fetchImageProgress(urlString: "http://ovu4rxd0y.bkt.clouddn.com/66.jpg") { (image) in
+        imageProcess.fetchImageProgress(urlString: "http://ovu4rxd0y.bkt.clouddn.com/66.jpg") { [weak self] (image) in
             
             let iv:UIImageView = UIImageView(image:image)
             iv.frame = CGRect(x:10, y:270, width:100, height:100)
             
-            self.view.addSubview(iv)
+            self?.view.addSubview(iv)
             print("block progress回调 图片异步下载")
             
             
@@ -69,6 +94,32 @@ class ViewController: UIViewController {
         
           //rainbow.jpg unicorn.png
         imageProcess.uploadMultipleFile(unicornImageName: "unicorn", rainbowImageName: "rainbow")
+        
+        
+        let btn:UIButton = UIButton.init(type: UIButtonType.custom)
+        
+        btn.frame=CGRect(x:120,y:30,width:200,height:40)
+        
+        btn.addTarget(self, action: #selector(ViewController.btnClick(btn:)), for: UIControlEvents.touchUpInside)
+        
+        btn.setTitle("点击进入下一页Image", for: UIControlState.normal)
+        
+        btn.setTitleColor(UIColor.red, for: UIControlState.normal)
+        
+        self.view.addSubview(btn)
+        
+        
+        let btn2:UIButton = UIButton.init(type: UIButtonType.custom)
+        
+        btn2.frame=CGRect(x:120,y:90,width:200,height:40)
+        
+        btn2.addTarget(self, action: #selector(ViewController.btnPushClick(btn:)), for: UIControlEvents.touchUpInside)
+        
+        btn2.setTitle("点击进入下一页-Quartz", for: UIControlState.normal)
+        
+        btn2.setTitleColor(UIColor.red, for: UIControlState.normal)
+        
+        self.view.addSubview(btn2)
         
         let obj:ObjSwift = ObjSwift(name:"dyn",age:27);
         

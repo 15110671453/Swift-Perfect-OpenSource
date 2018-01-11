@@ -9,46 +9,30 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ARSwift2/ImageRequestor.swift"
-            timestampString = "537272367.881899"
+            filePath = "ARSwift2/AppPathManager.swift"
+            timestampString = "537359616.615604"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "204"
-            endingLineNumber = "204"
-            landmarkName = "uploadMultipleFile(unicornImageName:rainbowImageName:)"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "fileManager(_:shouldProceedAfterError:copyingItemAtPath:toPath:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 (Alamofire.SessionManager.MultipartFormDataEncodingResult) -&gt; () in ARSwift2.ImageRequestor.uploadMultipleFile(unicornImageName: Swift.String, rainbowImageName: Swift.String) -&gt; ()"
-                  moduleName = "ARSwift2"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/admindyn/Desktop/dailyspace/ARSwift2/ARSwift2/ImageRequestor.swift"
-                  timestampString = "537272368.292672"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "204"
-                  endingLineNumber = "204"
-                  offsetFromSymbolStart = "44">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 (Alamofire.SessionManager.MultipartFormDataEncodingResult) -&gt; () in ARSwift2.ImageRequestor.uploadMultipleFile(unicornImageName: Swift.String, rainbowImageName: Swift.String) -&gt; ()"
-                  moduleName = "ARSwift2"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/admindyn/Desktop/dailyspace/ARSwift2/ARSwift2/ImageRequestor.swift"
-                  timestampString = "537272368.294076"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "204"
-                  endingLineNumber = "204"
-                  offsetFromSymbolStart = "76">
-               </Location>
-            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ARSwift2/AppPathManager.swift"
+            timestampString = "537359616.6156681"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "fileManager(_:shouldCopyItemAtPath:toPath:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC11626F2006F02C00D9A1B5 /* ImageDrawControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11626E2006F02C00D9A1B5 /* ImageDrawControl.swift */; };
+		EC1162772006F69200D9A1B5 /* CutomViewImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1162762006F69200D9A1B5 /* CutomViewImage.swift */; };
+		EC11627B2006FB9300D9A1B5 /* meinv.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC11627A2006FB9300D9A1B5 /* meinv.jpg */; };
+		EC11627D2006FE6F00D9A1B5 /* CustomViewImageContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11627C2006FE6F00D9A1B5 /* CustomViewImageContext.swift */; };
+		EC11627F2007014000D9A1B5 /* CustomViewImageQuartzPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11627E2007014000D9A1B5 /* CustomViewImageQuartzPath.swift */; };
+		EC1162812007019E00D9A1B5 /* NavControlQuartz.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1162802007019E00D9A1B5 /* NavControlQuartz.swift */; };
+		EC1162832007034E00D9A1B5 /* AppPathManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1162822007034E00D9A1B5 /* AppPathManager.swift */; };
+		EC11628520071E5E00D9A1B5 /* CICGImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11628420071E5E00D9A1B5 /* CICGImageView.swift */; };
+		EC1162872007356700D9A1B5 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1162862007356700D9A1B5 /* AnimationView.swift */; };
+		EC1162892007358400D9A1B5 /* AnimationControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1162882007358400D9A1B5 /* AnimationControl.swift */; };
+		EC11628B2007424300D9A1B5 /* SlideAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11628A2007424300D9A1B5 /* SlideAnimator.swift */; };
+		EC11628D2007519D00D9A1B5 /* ModalVCControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11628C2007519D00D9A1B5 /* ModalVCControl.swift */; };
+		EC11628F200751AE00D9A1B5 /* PopVCControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11628E200751AE00D9A1B5 /* PopVCControl.swift */; };
 		EC50A0EE1FFE026D00B1940A /* ObjSwDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC50A0ED1FFE026D00B1940A /* ObjSwDetails.swift */; };
 		EC50A0F01FFE0C2800B1940A /* ObjRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC50A0EF1FFE0C2800B1940A /* ObjRange.swift */; };
 		EC63DFA21FF5CE4600637A43 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC63DFA11FF5CE4600637A43 /* Person.swift */; };
@@ -147,6 +160,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		EC11626E2006F02C00D9A1B5 /* ImageDrawControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDrawControl.swift; sourceTree = "<group>"; };
+		EC1162762006F69200D9A1B5 /* CutomViewImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutomViewImage.swift; sourceTree = "<group>"; };
+		EC11627A2006FB9300D9A1B5 /* meinv.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meinv.jpg; sourceTree = "<group>"; };
+		EC11627C2006FE6F00D9A1B5 /* CustomViewImageContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewImageContext.swift; sourceTree = "<group>"; };
+		EC11627E2007014000D9A1B5 /* CustomViewImageQuartzPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewImageQuartzPath.swift; sourceTree = "<group>"; };
+		EC1162802007019E00D9A1B5 /* NavControlQuartz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavControlQuartz.swift; sourceTree = "<group>"; };
+		EC1162822007034E00D9A1B5 /* AppPathManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPathManager.swift; sourceTree = "<group>"; };
+		EC11628420071E5E00D9A1B5 /* CICGImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CICGImageView.swift; sourceTree = "<group>"; };
+		EC1162862007356700D9A1B5 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
+		EC1162882007358400D9A1B5 /* AnimationControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationControl.swift; sourceTree = "<group>"; };
+		EC11628A2007424300D9A1B5 /* SlideAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideAnimator.swift; sourceTree = "<group>"; };
+		EC11628C2007519D00D9A1B5 /* ModalVCControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalVCControl.swift; sourceTree = "<group>"; };
+		EC11628E200751AE00D9A1B5 /* PopVCControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopVCControl.swift; sourceTree = "<group>"; };
 		EC50A0ED1FFE026D00B1940A /* ObjSwDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjSwDetails.swift; sourceTree = "<group>"; };
 		EC50A0EF1FFE0C2800B1940A /* ObjRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjRange.swift; sourceTree = "<group>"; };
 		EC63DFA11FF5CE4600637A43 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
@@ -245,8 +271,20 @@
 			isa = PBXGroup;
 			children = (
 				ECE087862005A76F00B08B03 /* Alamofire.xcodeproj */,
-				EC98505C1FF495DF0003B01F /* AppDelegate.swift */,
+				ECE087AE20061F1E00B08B03 /* Images */,
 				EC98505E1FF495DF0003B01F /* ViewController.swift */,
+				EC1162802007019E00D9A1B5 /* NavControlQuartz.swift */,
+				EC11628A2007424300D9A1B5 /* SlideAnimator.swift */,
+				EC1162822007034E00D9A1B5 /* AppPathManager.swift */,
+				EC1162862007356700D9A1B5 /* AnimationView.swift */,
+				EC1162882007358400D9A1B5 /* AnimationControl.swift */,
+				EC11628C2007519D00D9A1B5 /* ModalVCControl.swift */,
+				EC11628E200751AE00D9A1B5 /* PopVCControl.swift */,
+				EC98505C1FF495DF0003B01F /* AppDelegate.swift */,
+				EC11626E2006F02C00D9A1B5 /* ImageDrawControl.swift */,
+				EC1162762006F69200D9A1B5 /* CutomViewImage.swift */,
+				EC11627C2006FE6F00D9A1B5 /* CustomViewImageContext.swift */,
+				EC11627E2007014000D9A1B5 /* CustomViewImageQuartzPath.swift */,
 				EC63DFB31FF60D5C00637A43 /* SwiftErrorType.swift */,
 				EC63DFB51FF611D200637A43 /* Note.swift */,
 				EC63DFB71FF6123500637A43 /* NoteDAO.swift */,
@@ -264,6 +302,7 @@
 				EC9850911FF4B70A0003B01F /* ObjGuard.swift */,
 				EC98508D1FF4966D0003B01F /* ObjSwift.swift */,
 				ECE087A82005AA9100B08B03 /* ImageRequestor.swift */,
+				EC11628420071E5E00D9A1B5 /* CICGImageView.swift */,
 				ECE087AC2005E59600B08B03 /* QueueManager.swift */,
 				ECE087AA2005C26000B08B03 /* RequestManager.swift */,
 				EC98508F1FF4ADBB0003B01F /* ObjString.swift */,
@@ -274,7 +313,6 @@
 				EC63DFA71FF5D72800637A43 /* Graduate.swift */,
 				EC63DFA91FF5DE7C00637A43 /* Worker.swift */,
 				EC63DFB91FF61E0C00637A43 /* SwiftCoco.swift */,
-				ECE087AE20061F1E00B08B03 /* Images */,
 				EC9850601FF495DF0003B01F /* Main.storyboard */,
 				EC9850661FF495DF0003B01F /* Assets.xcassets */,
 				EC9850681FF495DF0003B01F /* LaunchScreen.storyboard */,
@@ -320,6 +358,7 @@
 		ECE087AE20061F1E00B08B03 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				EC11627A2006FB9300D9A1B5 /* meinv.jpg */,
 				ECE087AF20061F1E00B08B03 /* rainbow.jpg */,
 				ECE087B020061F1E00B08B03 /* unicorn.png */,
 			);
@@ -497,6 +536,7 @@
 				ECE087B120061F1E00B08B03 /* rainbow.jpg in Resources */,
 				EC98506A1FF495DF0003B01F /* LaunchScreen.storyboard in Resources */,
 				EC9850671FF495DF0003B01F /* Assets.xcassets in Resources */,
+				EC11627B2006FB9300D9A1B5 /* meinv.jpg in Resources */,
 				ECE087B220061F1E00B08B03 /* unicorn.png in Resources */,
 				EC9850621FF495DF0003B01F /* Main.storyboard in Resources */,
 			);
@@ -524,11 +564,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC9850981FF4CF580003B01F /* ObjFunction.swift in Sources */,
+				EC11627D2006FE6F00D9A1B5 /* CustomViewImageContext.swift in Sources */,
 				EC63DFAA1FF5DE7C00637A43 /* Worker.swift in Sources */,
 				EC98509E1FF4E65D0003B01F /* DepartmentObj.swift in Sources */,
+				EC11628520071E5E00D9A1B5 /* CICGImageView.swift in Sources */,
 				EC98505F1FF495DF0003B01F /* ViewController.swift in Sources */,
 				EC63DFB81FF6123500637A43 /* NoteDAO.swift in Sources */,
 				EC9850941FF4BC240003B01F /* ObjSet.swift in Sources */,
+				EC11628F200751AE00D9A1B5 /* PopVCControl.swift in Sources */,
 				EC63DFA21FF5CE4600637A43 /* Person.swift in Sources */,
 				EC63DFAC1FF5E34D00637A43 /* ObjCategory.swift in Sources */,
 				EC63DFB21FF5EEB200637A43 /* SquareMatrix.swift in Sources */,
@@ -537,10 +580,14 @@
 				ECE087A92005AA9100B08B03 /* ImageRequestor.swift in Sources */,
 				EC98508E1FF4966D0003B01F /* ObjSwift.swift in Sources */,
 				EC63DFB61FF611D200637A43 /* Note.swift in Sources */,
+				EC1162832007034E00D9A1B5 /* AppPathManager.swift in Sources */,
+				EC11627F2007014000D9A1B5 /* CustomViewImageQuartzPath.swift in Sources */,
 				EC63DFBA1FF61E0C00637A43 /* SwiftCoco.swift in Sources */,
 				ECE087AB2005C26000B08B03 /* RequestManager.swift in Sources */,
 				EC98505D1FF495DF0003B01F /* AppDelegate.swift in Sources */,
 				EC98509A1FF4D9CE0003B01F /* ObjEnumStruct.swift in Sources */,
+				EC1162772006F69200D9A1B5 /* CutomViewImage.swift in Sources */,
+				EC1162892007358400D9A1B5 /* AnimationControl.swift in Sources */,
 				EC9850921FF4B70A0003B01F /* ObjGuard.swift in Sources */,
 				EC9850651FF495DF0003B01F /* ARSwift2.xcdatamodeld in Sources */,
 				EC9850901FF4ADBB0003B01F /* ObjString.swift in Sources */,
@@ -548,11 +595,16 @@
 				EC63DFA41FF5D02B00637A43 /* Student.swift in Sources */,
 				EC50A0F01FFE0C2800B1940A /* ObjRange.swift in Sources */,
 				ECE087AD2005E59600B08B03 /* QueueManager.swift in Sources */,
+				EC11628B2007424300D9A1B5 /* SlideAnimator.swift in Sources */,
+				EC1162872007356700D9A1B5 /* AnimationView.swift in Sources */,
 				EC50A0EE1FFE026D00B1940A /* ObjSwDetails.swift in Sources */,
+				EC11626F2006F02C00D9A1B5 /* ImageDrawControl.swift in Sources */,
 				EC63DFA81FF5D72800637A43 /* Graduate.swift in Sources */,
 				EC63DFB01FF5ED6E00637A43 /* DoubleDimensionalArray.swift in Sources */,
 				EC9850961FF4BFBC0003B01F /* ObjSwitch.swift in Sources */,
 				EC63DFB41FF60D5C00637A43 /* SwiftErrorType.swift in Sources */,
+				EC1162812007019E00D9A1B5 /* NavControlQuartz.swift in Sources */,
+				EC11628D2007519D00D9A1B5 /* ModalVCControl.swift in Sources */,
 				EC63DFA61FF5D2B800637A43 /* Bullet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -179,6 +179,7 @@ class ImageRequestor {
     }
     //rainbow.jpg unicorn.png
     func uploadMultipleFile(unicornImageName:String,rainbowImageName:String)  {
+        //MARK:几个应用程序主要的Path
         let pathBundle = Bundle.main.resourcePath
         
         let pathBundle2 = Bundle.main.bundlePath
@@ -203,7 +204,9 @@ class ImageRequestor {
                 switch encodingResult {
                 case .success(let upload, _, _):
                     upload.responseJSON { response in
-                        debugPrint(response)
+                       // debugPrint(response)
+                        
+                        print("上传图片 回执成功")
                     }
                 case .failure(let encodingError):
                     print(encodingError)
