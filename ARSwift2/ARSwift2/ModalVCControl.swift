@@ -10,6 +10,9 @@ import UIKit
 
 class ModalVCControl: UIViewController {
 
+    let ballLayer = CALayer()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -26,9 +29,106 @@ class ModalVCControl: UIViewController {
         btnA.setTitleColor(UIColor.red, for: UIControlState.normal)
         
         self.view.addSubview(btnA)
+        
+        
+        let image = UIImage(named:"ball.jpg")
+        
+        self.ballLayer.contents = image?.cgImage
+        self.ballLayer.bounds = CGRect(x:0.0,y:0.0,width:20,height:20)
+        
+       /*设置图层内容的渲染方式-以下模式是 是内容重新调整保持原样*/
+        self.ballLayer.contentsGravity = kCAGravityResizeAspect
+        /*
+         position位置 设置为视图中心点坐标
+         */
+        
+        self.ballLayer.position = CGPoint(x:self.view.bounds.midX,y:self.view.bounds.midY)
+        
+        self.view.layer.addSublayer(self.ballLayer)
+        
+        //MARK:飞机
+        
+        let btnB:UIButton = UIButton.init(type: UIButtonType.custom)
+        
+        btnB.frame=CGRect(x:120,y:124,width:200,height:40)
+        
+        btnB.addTarget(self, action: #selector(ModalVCControl.doExplicityAnimation(sender:)), for: UIControlEvents.touchUpInside)
+        
+        btnB.setTitleColor(UIColor.red, for: .normal)
+        
+        btnB.setTitle("显式动画进入", for: UIControlState.normal)
+        
+     
+        
+        self.view.addSubview(btnB)
+        
+        //MARK:视频控制器-1
+        let btnC:UIButton = UIButton.init(type: UIButtonType.custom)
+        
+        btnC.frame=CGRect(x:120,y:184,width:200,height:40)
+        
+        btnC.addTarget(self, action: #selector(ModalVCControl.doMovie(sender:)), for: UIControlEvents.touchUpInside)
+        
+        btnC.setTitleColor(UIColor.red, for: .normal)
+        
+        btnC.setTitle("视频控制器", for: UIControlState.normal)
+        
+        
+        
+        self.view.addSubview(btnC)
+        
+        //MARK:摄像头录制
+        
+        
+        let btnD:UIButton = UIButton.init(type: UIButtonType.custom)
+        
+        btnD.frame=CGRect(x:120,y:244,width:200,height:40)
+        
+        btnD.addTarget(self, action: #selector(ModalVCControl.doCamera(sender:)), for: UIControlEvents.touchUpInside)
+        
+        btnD.setTitleColor(UIColor.red, for: .normal)
+        
+        btnD.setTitle("摄像头控制器", for: UIControlState.normal)
+        
+        
+        
+        self.view.addSubview(btnD)
+        
+        
         // Do any additional setup after loading the view.
     }
-
+      //MARK:视频 - 录制  摄像头
+    @objc func doCamera(sender:AnyObject)  {
+        
+        let camControl = CameraVCControl()
+        
+        self.present(camControl, animated: true) {
+            
+        }
+        
+        
+        
+    }
+      //MARK:视频 play
+    @objc func doMovie(sender:AnyObject)  {
+        
+        let moviControl = MovieVCControl()
+        
+        self.present(moviControl, animated: true) {
+            
+        }
+        
+    }
+    
+    @objc func doExplicityAnimation(sender:AnyObject)  {
+        let explicityControl = AnimationExpilicitControl()
+        
+        self.present(explicityControl, animated: true) {
+            
+        }
+        
+    }
+    
     @objc func doBack()  {
         self.dismiss(animated: false) {
             

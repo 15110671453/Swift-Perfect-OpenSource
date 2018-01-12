@@ -35,6 +35,19 @@
 		EC63DFB61FF611D200637A43 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC63DFB51FF611D200637A43 /* Note.swift */; };
 		EC63DFB81FF6123500637A43 /* NoteDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC63DFB71FF6123500637A43 /* NoteDAO.swift */; };
 		EC63DFBA1FF61E0C00637A43 /* SwiftCoco.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC63DFB91FF61E0C00637A43 /* SwiftCoco.swift */; };
+		EC8F99BE20084C3B0081A3A4 /* ball.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC8F99B720084C3B0081A3A4 /* ball.jpg */; };
+		EC8F99C020084EEC0081A3A4 /* AnimationExpilicitControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8F99BF20084EEC0081A3A4 /* AnimationExpilicitControl.swift */; };
+		EC8F99C2200851F80081A3A4 /* feiji.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC8F99C1200851F80081A3A4 /* feiji.jpg */; };
+		EC8F99C42008599F0081A3A4 /* AudioVCControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8F99C32008599F0081A3A4 /* AudioVCControl.swift */; };
+		EC8F99C6200859B10081A3A4 /* MovieVCControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8F99C5200859B10081A3A4 /* MovieVCControl.swift */; };
+		EC8F99D0200867710081A3A4 /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EC8F99C9200867710081A3A4 /* test.mp4 */; };
+		EC8F99D22008866F0081A3A4 /* CameraVCControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8F99D12008866F0081A3A4 /* CameraVCControl.swift */; };
+		EC8F99D420088EED0081A3A4 /* CameraFoundationControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8F99D320088EED0081A3A4 /* CameraFoundationControl.swift */; };
+		EC8F99D620089C7F0081A3A4 /* VideoEditControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8F99D520089C7F0081A3A4 /* VideoEditControl.swift */; };
+		EC8F99D82008A0FD0081A3A4 /* CollectionControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8F99D72008A0FD0081A3A4 /* CollectionControl.swift */; };
+		EC8F99DA2008A3270081A3A4 /* ItemContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8F99D92008A3270081A3A4 /* ItemContent.swift */; };
+		EC8F99DC2008A66C0081A3A4 /* ItemCollectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8F99DB2008A66C0081A3A4 /* ItemCollectCell.swift */; };
+		EC8F99E02008B6820081A3A4 /* 22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC8F99DF2008B6820081A3A4 /* 22.jpg */; };
 		EC98505D1FF495DF0003B01F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC98505C1FF495DF0003B01F /* AppDelegate.swift */; };
 		EC98505F1FF495DF0003B01F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC98505E1FF495DF0003B01F /* ViewController.swift */; };
 		EC9850621FF495DF0003B01F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC9850601FF495DF0003B01F /* Main.storyboard */; };
@@ -188,6 +201,19 @@
 		EC63DFB51FF611D200637A43 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		EC63DFB71FF6123500637A43 /* NoteDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDAO.swift; sourceTree = "<group>"; };
 		EC63DFB91FF61E0C00637A43 /* SwiftCoco.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCoco.swift; sourceTree = "<group>"; };
+		EC8F99B720084C3B0081A3A4 /* ball.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ball.jpg; sourceTree = "<group>"; };
+		EC8F99BF20084EEC0081A3A4 /* AnimationExpilicitControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationExpilicitControl.swift; sourceTree = "<group>"; };
+		EC8F99C1200851F80081A3A4 /* feiji.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = feiji.jpg; sourceTree = "<group>"; };
+		EC8F99C32008599F0081A3A4 /* AudioVCControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioVCControl.swift; sourceTree = "<group>"; };
+		EC8F99C5200859B10081A3A4 /* MovieVCControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieVCControl.swift; sourceTree = "<group>"; };
+		EC8F99C9200867710081A3A4 /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.mp4; sourceTree = "<group>"; };
+		EC8F99D12008866F0081A3A4 /* CameraVCControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVCControl.swift; sourceTree = "<group>"; };
+		EC8F99D320088EED0081A3A4 /* CameraFoundationControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraFoundationControl.swift; sourceTree = "<group>"; };
+		EC8F99D520089C7F0081A3A4 /* VideoEditControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoEditControl.swift; sourceTree = "<group>"; };
+		EC8F99D72008A0FD0081A3A4 /* CollectionControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionControl.swift; sourceTree = "<group>"; };
+		EC8F99D92008A3270081A3A4 /* ItemContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemContent.swift; sourceTree = "<group>"; };
+		EC8F99DB2008A66C0081A3A4 /* ItemCollectCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectCell.swift; sourceTree = "<group>"; };
+		EC8F99DF2008B6820081A3A4 /* 22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 22.jpg; sourceTree = "<group>"; };
 		EC9850591FF495DF0003B01F /* ARSwift2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARSwift2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC98505C1FF495DF0003B01F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC98505E1FF495DF0003B01F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -273,12 +299,21 @@
 				ECE087862005A76F00B08B03 /* Alamofire.xcodeproj */,
 				ECE087AE20061F1E00B08B03 /* Images */,
 				EC98505E1FF495DF0003B01F /* ViewController.swift */,
+				EC8F99D72008A0FD0081A3A4 /* CollectionControl.swift */,
+				EC8F99DB2008A66C0081A3A4 /* ItemCollectCell.swift */,
+				EC8F99D92008A3270081A3A4 /* ItemContent.swift */,
+				EC8F99C32008599F0081A3A4 /* AudioVCControl.swift */,
+				EC8F99C5200859B10081A3A4 /* MovieVCControl.swift */,
 				EC1162802007019E00D9A1B5 /* NavControlQuartz.swift */,
 				EC11628A2007424300D9A1B5 /* SlideAnimator.swift */,
 				EC1162822007034E00D9A1B5 /* AppPathManager.swift */,
 				EC1162862007356700D9A1B5 /* AnimationView.swift */,
 				EC1162882007358400D9A1B5 /* AnimationControl.swift */,
+				EC8F99BF20084EEC0081A3A4 /* AnimationExpilicitControl.swift */,
 				EC11628C2007519D00D9A1B5 /* ModalVCControl.swift */,
+				EC8F99D12008866F0081A3A4 /* CameraVCControl.swift */,
+				EC8F99D320088EED0081A3A4 /* CameraFoundationControl.swift */,
+				EC8F99D520089C7F0081A3A4 /* VideoEditControl.swift */,
 				EC11628E200751AE00D9A1B5 /* PopVCControl.swift */,
 				EC98505C1FF495DF0003B01F /* AppDelegate.swift */,
 				EC11626E2006F02C00D9A1B5 /* ImageDrawControl.swift */,
@@ -358,6 +393,10 @@
 		ECE087AE20061F1E00B08B03 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				EC8F99C9200867710081A3A4 /* test.mp4 */,
+				EC8F99DF2008B6820081A3A4 /* 22.jpg */,
+				EC8F99B720084C3B0081A3A4 /* ball.jpg */,
+				EC8F99C1200851F80081A3A4 /* feiji.jpg */,
 				EC11627A2006FB9300D9A1B5 /* meinv.jpg */,
 				ECE087AF20061F1E00B08B03 /* rainbow.jpg */,
 				ECE087B020061F1E00B08B03 /* unicorn.png */,
@@ -539,6 +578,10 @@
 				EC11627B2006FB9300D9A1B5 /* meinv.jpg in Resources */,
 				ECE087B220061F1E00B08B03 /* unicorn.png in Resources */,
 				EC9850621FF495DF0003B01F /* Main.storyboard in Resources */,
+				EC8F99E02008B6820081A3A4 /* 22.jpg in Resources */,
+				EC8F99BE20084C3B0081A3A4 /* ball.jpg in Resources */,
+				EC8F99D0200867710081A3A4 /* test.mp4 in Resources */,
+				EC8F99C2200851F80081A3A4 /* feiji.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -564,12 +607,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC9850981FF4CF580003B01F /* ObjFunction.swift in Sources */,
+				EC8F99D620089C7F0081A3A4 /* VideoEditControl.swift in Sources */,
+				EC8F99C6200859B10081A3A4 /* MovieVCControl.swift in Sources */,
 				EC11627D2006FE6F00D9A1B5 /* CustomViewImageContext.swift in Sources */,
+				EC8F99C020084EEC0081A3A4 /* AnimationExpilicitControl.swift in Sources */,
 				EC63DFAA1FF5DE7C00637A43 /* Worker.swift in Sources */,
 				EC98509E1FF4E65D0003B01F /* DepartmentObj.swift in Sources */,
 				EC11628520071E5E00D9A1B5 /* CICGImageView.swift in Sources */,
 				EC98505F1FF495DF0003B01F /* ViewController.swift in Sources */,
+				EC8F99D82008A0FD0081A3A4 /* CollectionControl.swift in Sources */,
 				EC63DFB81FF6123500637A43 /* NoteDAO.swift in Sources */,
+				EC8F99D420088EED0081A3A4 /* CameraFoundationControl.swift in Sources */,
 				EC9850941FF4BC240003B01F /* ObjSet.swift in Sources */,
 				EC11628F200751AE00D9A1B5 /* PopVCControl.swift in Sources */,
 				EC63DFA21FF5CE4600637A43 /* Person.swift in Sources */,
@@ -588,8 +636,10 @@
 				EC98509A1FF4D9CE0003B01F /* ObjEnumStruct.swift in Sources */,
 				EC1162772006F69200D9A1B5 /* CutomViewImage.swift in Sources */,
 				EC1162892007358400D9A1B5 /* AnimationControl.swift in Sources */,
+				EC8F99DC2008A66C0081A3A4 /* ItemCollectCell.swift in Sources */,
 				EC9850921FF4B70A0003B01F /* ObjGuard.swift in Sources */,
 				EC9850651FF495DF0003B01F /* ARSwift2.xcdatamodeld in Sources */,
+				EC8F99DA2008A3270081A3A4 /* ItemContent.swift in Sources */,
 				EC9850901FF4ADBB0003B01F /* ObjString.swift in Sources */,
 				EC9850A01FF4E66D0003B01F /* Company.swift in Sources */,
 				EC63DFA41FF5D02B00637A43 /* Student.swift in Sources */,
@@ -600,10 +650,12 @@
 				EC50A0EE1FFE026D00B1940A /* ObjSwDetails.swift in Sources */,
 				EC11626F2006F02C00D9A1B5 /* ImageDrawControl.swift in Sources */,
 				EC63DFA81FF5D72800637A43 /* Graduate.swift in Sources */,
+				EC8F99D22008866F0081A3A4 /* CameraVCControl.swift in Sources */,
 				EC63DFB01FF5ED6E00637A43 /* DoubleDimensionalArray.swift in Sources */,
 				EC9850961FF4BFBC0003B01F /* ObjSwitch.swift in Sources */,
 				EC63DFB41FF60D5C00637A43 /* SwiftErrorType.swift in Sources */,
 				EC1162812007019E00D9A1B5 /* NavControlQuartz.swift in Sources */,
+				EC8F99C42008599F0081A3A4 /* AudioVCControl.swift in Sources */,
 				EC11628D2007519D00D9A1B5 /* ModalVCControl.swift in Sources */,
 				EC63DFA61FF5D2B800637A43 /* Bullet.swift in Sources */,
 			);

@@ -41,6 +41,17 @@ class ViewController: UIViewController {
         
     }
     
+   @objc func collectionView(sender:AnyObject)  {
+    
+    let collect = CollectionControl()
+    
+    self.present(collect, animated: true) {
+        
+    }
+    
+        
+    }
+    
     @objc func btnClick(btn:UIButton)  {
        
        
@@ -120,6 +131,20 @@ class ViewController: UIViewController {
         btn2.setTitleColor(UIColor.red, for: UIControlState.normal)
         
         self.view.addSubview(btn2)
+        
+        
+        let btn3:UIButton = UIButton.init(type: UIButtonType.custom)
+        
+        btn3.frame=CGRect(x:120,y:150,width:200,height:40)
+        
+        btn3.addTarget(self, action: #selector(ViewController.collectionView(sender:)), for: UIControlEvents.touchUpInside)
+        
+        btn3.setTitle("点击进入下一页-列表-clollection", for: UIControlState.normal)
+        
+        btn3.setTitleColor(UIColor.red, for: UIControlState.normal)
+        
+        self.view.addSubview(btn3)
+        
         
         let obj:ObjSwift = ObjSwift(name:"dyn",age:27);
         
