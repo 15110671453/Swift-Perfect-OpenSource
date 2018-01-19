@@ -274,17 +274,33 @@ class ViewController: UIViewController {
         
         print("上面结构体 实例化 赋值给 let 变量 然后 对结构体成员进行 修改值 发现报错 不可以修改 证明 结构体是值类型数据 赋值给 let变量的 那么 又是let的 常量 不可以修改 它的成员变量")
         
+        
+//        let dept4 = Department()
+//        dept4.no = 10
+//        dept4.name = "Sales"
+        
+        /*
+         以上let的 直接报错
+         */
+        
         var dept = Department()
         dept.no = 10
         dept.name = "Sales"
+        
+        dept.no = 911
         
         var dept1 = Department()
         dept1.no = 10
         dept1.name = "Sales"
         
+        dept1.no = 911
+        
         var dept2 = Department()
         dept2.no = 10
         dept2.name = "Sales"
+        
+        
+        dept2.no = 911
         
          print("但是 实例化类 赋值给 let 变量 同样是常量  但由于是引用类型 我们可以修改它的成员 但是不可以在对emp自己修改")
         let emp = Employee()
